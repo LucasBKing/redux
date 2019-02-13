@@ -9,7 +9,8 @@ class PostForm extends Component {
         const data = {
             id: new Date(),
             title,
-            msg
+            msg,
+            editing: false
         };
         // I can access the props here cause I'm using connect method
         this.props.dispatch({
